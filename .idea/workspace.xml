@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fdfc4d7-e4ba-4601-8bdc-72b88a5c3495" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hjKljNfOn4zfKmy5DGJmKiVMBL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600519214533</updated>
-      <workItem from="1600519215851" duration="2524000" />
+      <workItem from="1600519215851" duration="2628000" />
     </task>
     <task id="LOCAL−00001" summary="Init">
       <created>1600520611353</created>
@@ -65,7 +67,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1600521021115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Added intro when user joins">
+      <created>1600521777827</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1600521777827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,7 +81,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Added intro when user joins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added intro when user joins" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -81,34 +90,34 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600519250816" />
-    <state x="649" y="134" key="CommitChangelistDialog2" timestamp="1600521020833">
+    <state x="649" y="134" key="CommitChangelistDialog2" timestamp="1600521777511">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="649" y="134" key="CommitChangelistDialog2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521020833" />
+    <state x="649" y="134" key="CommitChangelistDialog2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521777511" />
     <state x="804" y="311" key="FileChooserDialogImpl" timestamp="1600520498203">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="311" key="FileChooserDialogImpl/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600520498203" />
-    <state width="2027" height="305" key="GridCell.Tab.0.bottom" timestamp="1600521699514">
+    <state width="2027" height="305" key="GridCell.Tab.0.bottom" timestamp="1600521764570">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521699514" />
-    <state width="2027" height="305" key="GridCell.Tab.0.center" timestamp="1600521699514">
+    <state width="2027" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521764570" />
+    <state width="2027" height="305" key="GridCell.Tab.0.center" timestamp="1600521764570">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521699514" />
-    <state width="2027" height="305" key="GridCell.Tab.0.left" timestamp="1600521699514">
+    <state width="2027" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521764570" />
+    <state width="2027" height="305" key="GridCell.Tab.0.left" timestamp="1600521764570">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521699514" />
-    <state width="2027" height="305" key="GridCell.Tab.0.right" timestamp="1600521699514">
+    <state width="2027" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521764570" />
+    <state width="2027" height="305" key="GridCell.Tab.0.right" timestamp="1600521764570">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521699514" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600521023040">
+    <state width="2027" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521764570" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600521780696">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521023040" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600521780696" />
     <state x="853" y="290" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1600520521355">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
