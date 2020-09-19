@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600519214533</updated>
       <workItem from="1600519215851" duration="5000000" />
-      <workItem from="1600529567239" duration="5143000" />
+      <workItem from="1600529567239" duration="6496000" />
     </task>
     <task id="LOCAL−00001" summary="Init">
       <created>1600520611353</created>
@@ -87,7 +87,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1600531046609</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Made so the bot leaves after 5 second of playing intro">
+      <created>1600546928618</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1600546928618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +104,8 @@
     <MESSAGE value="Added intro when user joins" />
     <MESSAGE value="Updated .gitignore" />
     <MESSAGE value="Added three new functions one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added three new functions one" />
+    <MESSAGE value="Made so the bot leaves after 5 second of playing intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made so the bot leaves after 5 second of playing intro" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -106,30 +113,30 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600519250816" />
-    <state x="649" y="134" key="CommitChangelistDialog2" timestamp="1600531046099">
+    <state x="649" y="134" key="CommitChangelistDialog2" timestamp="1600546928319">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="649" y="134" key="CommitChangelistDialog2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600531046099" />
+    <state x="649" y="134" key="CommitChangelistDialog2/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546928319" />
     <state x="804" y="311" key="FileChooserDialogImpl" timestamp="1600520498203">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="311" key="FileChooserDialogImpl/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600520498203" />
-    <state width="2027" height="305" key="GridCell.Tab.0.bottom" timestamp="1600546849780">
+    <state width="2027" height="305" key="GridCell.Tab.0.bottom" timestamp="1600546929461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546849780" />
-    <state width="2027" height="305" key="GridCell.Tab.0.center" timestamp="1600546849779">
+    <state width="2027" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546929461" />
+    <state width="2027" height="305" key="GridCell.Tab.0.center" timestamp="1600546929461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546849779" />
-    <state width="2027" height="305" key="GridCell.Tab.0.left" timestamp="1600546849779">
+    <state width="2027" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546929461" />
+    <state width="2027" height="305" key="GridCell.Tab.0.left" timestamp="1600546929460">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546849779" />
-    <state width="2027" height="305" key="GridCell.Tab.0.right" timestamp="1600546849780">
+    <state width="2027" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546929460" />
+    <state width="2027" height="305" key="GridCell.Tab.0.right" timestamp="1600546929461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2027" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546849780" />
+    <state width="2027" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1030/2560.0.1920.1040/0.0.2048.1112@0.0.2048.1112" timestamp="1600546929461" />
     <state width="2027" height="376" key="GridCell.Tab.1.bottom" timestamp="1600546777332">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
