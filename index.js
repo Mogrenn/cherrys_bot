@@ -17,19 +17,25 @@ bot.on("message", (msg) => {
 bot.on("voiceStateUpdate", (oldMember, newMember) => {
     let newUserChannel = newMember.channel;
     let oldUserChannel = oldMember.channel;
+    let connection;
 
 
     if (oldUserChannel == null && newUserChannel !== null) {
 
         console.log("Has joined");
-        newUserChannel.join();
+        connection = newUserChannel.join().then(connection => {
+            connection.play("outro.mp3");
+        });
+
+
 
     } else if (newUserChannel == null) {
 
         console.log("Has left");
+
         oldUserChannel.leave();
 
     }
 });
 
-bot.login("NjM2MTQ4ODIzMzg2ODgyMDQ5.Xa7Zwg.IbjxNVNVxOdEq5_TvQv1L0oT9lA");
+bot.login("NjM2MTQ4ODIzMzg2ODgyMDQ5.Xa7Zwg.kJehaJLcXHbDmGZ8wIaKxcW9lSk");
