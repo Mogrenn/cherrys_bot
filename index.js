@@ -3,6 +3,7 @@ const bot = new Discord.Client();
 let regex = new RegExp("impostor|Impostor");
 bot.on("ready", () => {
     console.log("Ready and awaiting Command");
+    //displayServerInfo(bot);
 });
 
 bot.on("message", (msg) => {
@@ -23,19 +24,20 @@ bot.on("message", (msg) => {
 bot.on("voiceStateUpdate", (oldMember, newMember) => {
     let newUserChannel = newMember.channel;
     let oldUserChannel = oldMember.channel;
-    let connection;
-
 
     if (oldUserChannel == null && newUserChannel !== null) {
         if (newMember.member.displayName == "CherryBerry") {
             console.log("Has joined");
-            connection = newUserChannel.join().then(connection => {
+            newUserChannel.join().then(connection => {
                 connection.play("outro.mp3");
+                sleep(5000).then(connection => {
+                    newUserChannel.leave();
+                });
+
             });
         }
 
     } else if (newUserChannel == null) {
-
         console.log("Has left");
 
         oldUserChannel.leave();
@@ -43,4 +45,20 @@ bot.on("voiceStateUpdate", (oldMember, newMember) => {
     }
 });
 
-bot.login("NjM2MTQ4ODIzMzg2ODgyMDQ5.Xa7Zwg.kJehaJLcXHbDmGZ8wIaKxcW9lSk");
+bot.login("NjM2MTQ4ODIzMzg2ODgyMDQ5.Xa7Zwg.E-P91aYplvJigeV5rsPKq_24ezs");
+
+function displayServerInfo(client) {
+    console.log("Connected as " + client.user.tag);
+    console.log("Server : ");
+    client.guilds.forEach((guild) => {
+        console.log(`-- ${guild.name} - ${guild.id}`);
+        console.log("Channels : ");
+        guild.channels.forEach((channel) => {
+            console.log(`-- ${channel.name} (${channel.type} - ${channel.id})`);
+        });
+    });
+}
+
+async function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
