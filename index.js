@@ -49,7 +49,7 @@ bot.on("voiceStateUpdate", (oldMember, newMember) => {
     }
 });
 
-bot.login("NjM2MTQ4ODIzMzg2ODgyMDQ5.Xa7Zwg.E-P91aYplvJigeV5rsPKq_24ezs");
+bot.login("Token");
 
 function displayServerInfo(client) {
     console.log("Connected as " + client.user.tag);
