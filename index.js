@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-
+let regex = new RegExp("impostor|Impostor");
 bot.on("ready", () => {
     console.log("Ready and awaiting Command");
 });
@@ -11,6 +11,12 @@ bot.on("message", (msg) => {
         let random = Math.floor(Math.random() * roasts.length);
 
         msg.reply(roasts[random]);
+    } else if (msg.content == "Who is the imposter") {
+        let imposters = ["Charlie", "Apex", "Dennis", "Cherry", "Skippster", "Japp", "Mr. Autism"];
+        let imposter = imposters[Math.floor(Math.random()*imposters.length)];
+        msg.channel.send(imposter+", it's fucking "+imposter+" that is the imposter!!!");
+    } else if (msg.content.match(regex)) {
+        msg.reply("IT IS IMPOSTER ARE YOU DUMB");
     }
 });
 
@@ -21,13 +27,12 @@ bot.on("voiceStateUpdate", (oldMember, newMember) => {
 
 
     if (oldUserChannel == null && newUserChannel !== null) {
-
-        console.log("Has joined");
-        connection = newUserChannel.join().then(connection => {
-            connection.play("outro.mp3");
-        });
-
-
+        if (newMember.member.displayName == "CherryBerry") {
+            console.log("Has joined");
+            connection = newUserChannel.join().then(connection => {
+                connection.play("outro.mp3");
+            });
+        }
 
     } else if (newUserChannel == null) {
 
